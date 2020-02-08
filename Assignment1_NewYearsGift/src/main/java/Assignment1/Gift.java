@@ -1,5 +1,7 @@
 package Assignment1;
-import java.util.*;
+
+import java.util.Comparator;
+
 public class Gift implements Comparator<Gift>{
 	String giftType;
 	String name;
