@@ -104,7 +104,7 @@ public class NewYearGift {
     		
     		System.out.println();
     		System.out.println();
-    		
+    		if(k1>0||k2>0) {
     		System.out.println("The total weight (the number of candies or Sweets) is :"+ totalWeight);
     		System.out.println();
     		
@@ -128,7 +128,7 @@ public class NewYearGift {
     		System.out.println();
     		
     		System.out.println("The number of candies present in the given predetermined range of 0-300 are : "+ candiesCount);
-    		
+    		}
     	}
     	catch(Exception e) {
 			System.out.println(e);
